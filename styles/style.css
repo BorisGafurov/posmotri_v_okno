@@ -27,7 +27,6 @@ ol {
   list-style: none;
 }
 
-
  /*1. Лэйаут*/
 .page {
   display: flex;
@@ -223,7 +222,6 @@ video {
   align-self: flex-end;
 }
 
-
 .more-button {
   width: 399px;
   margin: 2px;
@@ -262,7 +260,6 @@ video {
   text-decoration: 1px underline #FFF;
   text-underline-offset: 2px;
 }
-
 
 button:focus {
   outline: none;
@@ -304,7 +301,6 @@ button:focus {
 .content__video-card-title:hover {
   text-decoration: underline;
 }
-
 
 .content__card-link_current {
   background-color: #545050;

@@ -160,8 +160,8 @@ video {
 }
 
 .search-form__label {
-  display: inline-flex;
-  width: fit-content;
+  display: flex;
+  width: 100%;
   cursor: pointer;
   color: #FFF;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -196,6 +196,7 @@ video {
   font-size: inherit;
   font-weight: inherit;
   color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
 }
 
 .search-form__pseudo-checkbox {
@@ -256,7 +257,7 @@ video {
   text-underline-offset: 2px;
 }
 
-.search-form__label:hover .search-form__textfield:not(:hover) {
+.search-form__label:hover .search-form__label-text {
   text-decoration: 1px underline #FFF;
   text-underline-offset: 2px;
 }
